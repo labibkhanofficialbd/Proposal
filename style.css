@@ -45,10 +45,12 @@ a{
         display: flex;
         justify-content: center;
     }
-   
+    .qst-opt{
+        margin-top: 150px;
+    }
     .opt-div{
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
