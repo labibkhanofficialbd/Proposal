@@ -1,0 +1,59 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(img/tenor.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+.qst-opt{
+    text-align: center;
+    margin-top: 250px;
+}
+.opt-div{
+    display: flex;
+}
+.qst{
+    color: white;
+    font-size: 70px;
+}
+.opt{
+    color: black;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:688px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .opt-div{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .opt{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
